@@ -1,0 +1,65 @@
+.banner-container {
+    position: relative; /* Establecer el posicionamiento relativo para el contenedor */
+    width: 100%; /* Hacer que el contenedor ocupe todo el ancho de la página */
+    overflow: hidden; /* Asegurarse de que la imagen no desborde */
+}
+
+.banner {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Asegurar que la imagen se comporte como bloque */
+}
+
+.ver-gratis {
+    position: absolute; /* Establecer el posicionamiento absoluto */
+    top: 30%; /* Posición vertical en el centro */
+    left: 10%; /* Posición horizontal a 10% desde el lado izquierdo */
+    color: white; /* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); /* Agregar un trazo al texto */
+}
+
+.titulo-manga {
+    position: absolute; /* Establecer el posicionamiento absoluto */
+    top: 32%; /* Posición vertical en el centro */
+    left: 10%; /* Posición horizontal a 10% desde el lado izquierdo */
+    color: white; /* Color del texto */
+    font-size: 80px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-shadow: 10px 2px 2px rgba(0, 0, 0, 0.5); /* Agregar un trazo al texto */
+}
+
+.descripcion-manga {
+    position: absolute;
+    top: 42%; /* Ajusta la posición vertical debajo del título */
+    left: 11%;
+    color: white;
+    font-size: 20px;
+    width: 30%; /* Establece el ancho máximo del elemento */
+}
+
+/* Estilo para los indicadores del carrusel */
+.carousel-indicators {
+    position: absolute;
+    bottom: 20%; /* Ajusta la posición vertical de los indicadores */
+    left: -1%; /* Centra los indicadores horizontalmente */
+    transform: translateX(-50%);
+    width: fit-content;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators li.active {
+    background-color: #ffffff;
+}
+

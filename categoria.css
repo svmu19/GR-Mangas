@@ -1,0 +1,70 @@
+.categorias-section h2 {
+    margin-top: 10px;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 60px; /* Tamaño de fuente más grande */
+}
+.categorias-section h1 {
+    text-align: center;
+    margin-left: -50px;
+    font-size: 40px; /* Tamaño de fuente más grande */
+    margin-bottom: 50px; /* Agrega espacio entre el título y las categorías */
+}
+
+/* Estilo para las imágenes de las categorías */
+.categoria {
+    position: relative; /* Establece la posición relativa */
+    overflow: hidden; /* Para asegurarse de que el efecto hover solo afecte a la imagen */
+}
+
+.categoria img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 300px; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    transition: filter 0.5s ease; /* Transición suave para el efecto */
+    margin-bottom: 50px;
+}
+
+.categoria:hover img {
+    filter: brightness(70%); /* Reduce el brillo al 70% */
+}
+.texto-derecha {
+    margin-left: 20px; /* Ajusta este valor según el espacio deseado entre la imagen y el texto */
+    text-align: right; /* Para alinear el texto a la derecha */
+}
+
+.titulo {
+    color: #960000; /* Cambia #960000 al color que desees para el título */
+    text-align: left; /* Alinea el título a la izquierda */
+}
+.titulo2 {
+    color: #960000; /* Cambia #960000 al color que desees para el título */
+    text-align: left; /* Alinea el título a la izquierda */
+    font-size: 20px;
+}
+
+.parrafo {
+    color: #000000; /* Cambia #000000 al color que desees para el párrafo */
+    font-size: 60px; /* Ajusta el tamaño de la fuente según sea necesario */
+    margin-top: -20px; /* Ajusta este valor según el espacio deseado entre el título y el párrafo */
+    text-align: left; /* Alinea el párrafo a la izquierda */
+}
+.parrafo2 {
+    color: #000000; /* Cambia #000000 al color que desees para el párrafo */
+    font-size: 25px; /* Ajusta el tamaño de la fuente según sea necesario */
+    margin-top: -10px; /* Ajusta este valor según el espacio deseado entre el título y el párrafo */
+    text-align: left; /* Alinea el párrafo a la izquierda */
+}
+.reseña {
+    color: #292929; /* Cambia #000000 al color que desees para el párrafo */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según sea necesario */
+    margin-top: -10px; /* Ajusta este valor según el espacio deseado entre el título y el párrafo */
+    text-align: left; /* Alinea el párrafo a la izquierda */
+    width: 60%;
+}
+hr {
+    border-width: 2px; /* Grosor del borde */
+    border-color: #575757; /* Cambia #960000 al color que desees */
+    margin-right: 80%;
+    width: 60%;
+}

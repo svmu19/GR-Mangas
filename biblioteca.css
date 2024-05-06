@@ -1,0 +1,70 @@
+#biblioteca-section hr {
+    border-color: 575757;
+    border-width: 2px;
+    width: 100%;
+}
+
+.biblioteca-container h2 {
+    color: #c90000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.biblioteca-container p {
+    color: #000000;
+    font-size: 60px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.comic-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+.comic-title1 {
+    font-size: 18px;
+    margin-left: -14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+.comic-title3 {
+    font-size: 18px;
+    margin-left: -30px;
+    font-weight: bold;
+    color: #333; 
+    margin-top: 10px; 
+}
+.comic-title4 {
+    font-size: 18px;
+    margin-left: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+.biblioteca-container .comic {
+    margin-bottom: 50px;
+}
+.biblioteca-container .parrafo {
+    font-size: 18px;
+    margin-left: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: -10px;
+}
+
+#biblioteca-section{
+    background-color: #ffffff;
+}
+
+/* Reducimos la intensidad del efecto de agrandamiento y disminución de brillo al pasar el cursor */
+.comic img {
+    transition: transform 0.5s ease, filter 0.5s ease; /* Ajustamos la duración de la transición */
+}
+
+.comic img:hover {
+    transform: scale(1.05); /* Reducimos el factor de escala */
+    filter: brightness(70%); /* Reducimos la cantidad de brillo reducido */
+}
